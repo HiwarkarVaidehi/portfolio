@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+body {
+    background-image: url('BLUE\ \(2\).jpg');
+    color: #fff;
+    font-family:'Poppins', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(2px); /* Adjust the value to increase or decrease the blur amount */
+  -webkit-backdrop-filter: blur(2px);
+    }
+
+  header {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+    font-size: xx-large;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 30px;
+    font-size: large;
+  }
+  
+  footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: rgb(74, 224, 227);
+  }
+  
+  .profession {
+    color: #999;
+    margin-top: 10px;
+  }
+
+  section#about {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    font-size: x-large;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .image-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-5%, 50%);
+    margin-bottom: 0%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    display:flex;
+    margin-left: -200px;
+    margin-right: 350px;
+    margin-top: 100px;
+    
+  }
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .icon {
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    margin-left:35px;
+    margin-right: 10px;
+  }
+  
+  .icon:hover {
+    color: #aaa;
+  }
+  section#contact {
+  
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    font-size: larger;
+  }
+  #project-list li {
+    font-size: 1.3rem; /* Adjust the value to make the font larger or smaller */
+  }
+  
+  #project-list a {
+    color: #66cacc;
+    text-decoration: none;
+  }
+  
+  #project-list a:hover {
+    color: #3bdfb6;
+    text-decoration: underline;
+  }
